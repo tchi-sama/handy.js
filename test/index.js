@@ -1,2 +1,9 @@
-// start importing all your test files here
-// NOTE: this file is linked to the index.html file
+const style = document.documentElement.style
+
+const Style={
+    ...style,
+    hello:"hello world!"
+}
+
+
+Style.hello

@@ -290,3 +290,13 @@ export default class HArray extends Array {
 // - shellSort
 // - bucketSort // accept a parameter for the number of buckets
 // - radixSort // accept a parameter for the radix
+function range (n){
+    return new Array()
+}
+Array.prototype.shuffle=()=>{
+    return new Array()
+}
+Array.prototype.chunk=()=>{
+    return new Array()
+}
+range().shuffle().chunk()
